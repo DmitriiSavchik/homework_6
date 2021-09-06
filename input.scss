@@ -1,0 +1,70 @@
+$color-primery: #FFFFFF;
+$font-size-weight: normal;
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.design {
+    background: {
+        image: url("./assets/icons/city.png");
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+    }
+    .filtr {
+        background: rgba(0, 0, 0, 0.65);
+    }
+}
+.design-title {
+    font: {
+        size: 36px;
+        family: raleway;
+        weight: $font-size-weight;
+    }
+    padding: 76px 0 46px;
+    color: $color-primery;
+}
+.underline-2 {
+    border: 1px solid $color-primery;
+    width: 64px;
+    margin: 0 auto 30px;
+    background-color: $color-primery;
+}
+.design-text {
+    font: {
+        size: 16px;
+        family: 'Open Sans';
+        weight: $font-size-weight;
+    }
+    margin-bottom: 30px;
+    color:rgb(255, 255, 255, 0.8);
+}
+.button {
+    width: 135px;
+    height: 42px;
+    border-radius: 0%;
+    background-color: transparent;
+    font-size: 15px;
+    color: $color-primery;
+    border: 1px solid $color-primery;
+    margin-bottom: 38px;
+    cursor:pointer;
+}
+.footer {
+    padding: 30px 0 15px;
+    background-color: black;
+}
+.fab, .fas {
+    height: 23px;
+    color: $color-primery;
+    margin-bottom: 18px;
+    padding: 0 10px;
+}
+.author {
+    font: {
+        size: 12px;
+        family: 'Open Sans';
+    }
+    color: $color-primery; 
+}

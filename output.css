@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.design {
+  background-image: url("./assets/icons/city.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.design .filtr {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.design-title {
+  font-size: 36px;
+  font-family: raleway;
+  font-weight: normal;
+  padding: 76px 0 46px;
+  color: #FFFFFF;
+}
+
+.underline-2 {
+  border: 1px solid #FFFFFF;
+  width: 64px;
+  margin: 0 auto 30px;
+  background-color: #FFFFFF;
+}
+
+.design-text {
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  width: 135px;
+  height: 42px;
+  border-radius: 0%;
+  background-color: transparent;
+  font-size: 15px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 30px 0 15px;
+  background-color: black;
+}
+
+.fab, .fas {
+  height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+  padding: 0 10px;
+}
+
+.author {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=output.css.map */

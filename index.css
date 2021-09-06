@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.awesome {
+    margin: 100px 0 36px;
+}
+.awesome-title {
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-family: raleway;
+    font-weight: normal;
+}
+.underline {
+    border: 1px solid #E72424;
+    width: 64px;
+    margin: 0 auto 30px;
+    background-color: #E72424;
+}
+.awesome-text {
+    color: #86878B;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+.why-awecome {
+    font-family: 'Open Sans';
+}
+.why-awecome {
+    font-size: 0;
+    padding-bottom: 108px;
+}
+.why-awecome-block{
+    font-size: 16px;
+    width: 350px;
+    display: inline-block;
+    padding: 0 5px;
+}
+.why-awesome-block-wrapper  {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.lampa {
+    background-image: url("./assets/icons/lampa.svg");
+}
+.keyboard {
+    background-image: url("./assets/icons/keyboard.svg");
+}
+.light {
+    background-image: url("./assets/icons/light.svg");
+}
+.why-awesome-block-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
